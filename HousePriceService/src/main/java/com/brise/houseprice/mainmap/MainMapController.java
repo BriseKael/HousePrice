@@ -13,7 +13,7 @@ public class MainMapController {
     public MainMapVo getMainMap() {
         MainMapVo vo = new MainMapVo();
         vo.setData("hello world");
-        mainMapService.DoSomething();
+        mainMapService.doSomething();
         return vo;
     }
 }

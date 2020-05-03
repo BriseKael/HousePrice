@@ -10,8 +10,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>HousePriceService</module>
         <module>HousePriceCore</module>
+        <module>HousePriceService</module>
+        <module>HousePriceWebsite</module>
     </modules>
 
     <!--统一maven管理版本号的地方，插件顺序按照一方件，二方件，三方件排序，按照功能排序，按照字典排序-->
