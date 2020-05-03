@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @Log4j2
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
-public class HousepriceApplication {
+public class HousePriceApplication {
     public static void main(String[] args) {
         log.info("================ initialized start ================");
-        SpringApplication.run(HousepriceApplication.class, args);
+        SpringApplication.run(HousePriceApplication.class, args);
         log.info("================ initialized finish ================");
     }
 }
